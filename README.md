@@ -41,3 +41,8 @@ npm run build
 ```bash
 npm run preview
 ```
+
+### ⚠️ Important Disclaimer
+- You must add your **TMDB API key** in the `API_KEY` variable inside `src/services/api.js`.
+- TMDB provides free api, you do not need to pay for anything.
+- Without it, the functions `getPopularMovies` and `searchMovies` will not return any data, and the app will not display movies.
