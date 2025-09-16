@@ -1,12 +1,43 @@
-# React + Vite
+# Movie Bucket [Built with React-js]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Live Link: https://movie-bucket-react.netlify.app/
 
-Currently, two official plugins are available:
+### Project Preview
+- Home Page
+<img src="./public/preview-1.png" alt="Movie Poster" align="center" 
+    height="1500" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Favorites Page
+<img src="./public/preview-2.png" alt="Movie Poster" align="center"
+    height="600" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Clone the Repository
+```bash
+git clone https://github.com/emonislive/movie-bucket-site.git
+cd movie-bucket-site
+```
+
+### Install Dependencies
+```bash
+npm install
+```
+
+### Start the Development Server
+```bash
+npm run dev
+```
+
+### You will see a URL like:
+- Local: http://localhost:5173
+- Open this in your browser to view your project.
+
+### Optional: Build for Production [for `Netlify` deploy]
+- This creates a 'dist/' folder with optimized static files.
+```bash
+npm run build
+```
+### Optional: Preview the Production Build
+```bash
+npm run preview
+```
